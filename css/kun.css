@@ -1,0 +1,463 @@
+@charset "utf-8";
+/*去边距*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*头部导航栏部分*/
+.toubu{
+	width:100%;
+	height: 80px;
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	z-index: 999;
+}	
+.toubu .toubuCon{
+	width: 1200px;
+	height: 80px;
+	/*background: red;*/
+	margin: 0px auto;
+	position: relative;
+}
+.toubuCon .lvzuan{
+	width: 200px;
+	height: 80px;
+	/*background: gray;*/
+	float: left;
+}
+.toubuCon .wenzidaohang{
+	position: absolute;
+	width: 480px;
+	height: 80px;
+	/*background: yellow;*/
+	left: 220px;
+	font-size: 18px;
+	line-height: 80px;
+}
+.wenzidaohang a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.toubuCon .denglu{
+	width: 133px;
+	height: 80px;
+	/*background: yellow;*/
+	float: right;
+	line-height: 80px;
+}
+.denglu a,p{
+	text-decoration: none;
+	font-size: 12px;	
+}
+.denglu a{
+	color: #42A41B;
+}
+.denglu p{
+	color: #9E9E9E;
+}
+/*侧边栏部分*/
+.cebianlan{
+	width: 43px;
+	height: 273px;
+	position: fixed;
+	z-index: 99;
+	right: 1.5%;
+	top: 38%;
+	background: url(../img/cebian1.png);	
+}
+.cebialan1{
+	position: relative;
+}
+.cebiantubiao2{
+	/*background: red;*/
+	width: 27px;
+	height: 28px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -13.5px;
+	margin-top: -114px;	
+}
+.cebiantubiao3{
+	/*background: red;*/
+	width: 27px;
+	height: 28px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -13.5px;
+	margin-top: -64px;	
+}
+.cebiantubiao4{
+	/*background: red;*/
+	width: 27px;
+	height: 28px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -13.5px;
+	margin-top: -14px;	
+}
+.cebiantubiao5{
+	/*background: red;*/
+	width: 27px;
+	height: 28px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -13.5px;
+	margin-top: 36px;	
+}
+.cebiantubiao6{
+	/*background: red;*/
+	width: 27px;
+	height: 28px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -13.5px;
+	margin-top: 86px;	
+}
+.cebiantuozhan1{
+	width: 149px;
+	height: 239px;
+	left: -170px;
+	top: -80px;
+	position: absolute;
+	line-height: 30px;
+	background: url(../img/cebian7.png);
+	text-align: center;	
+    -webkit-transition: 0.5s;
+    transform: skew(-45deg, -45deg);
+    /*display: none;*/
+}
+
+.cebiantubiao2:hover .cebiantuozhan1 {
+  -webkit-transform: skew(0deg, 0deg);
+}
+.cebiantuozhan2{
+	width: 149px;
+	height: 239px;
+	left: -170px;
+	top: -80px;
+	position: absolute;
+	line-height: 30px;
+	background: url(../img/cebian7.png);
+	text-align: center;	
+    -webkit-transition: 0.5s;
+    transform: skew(-45deg, -45deg);
+    /*display: none;*/
+}
+.cebiantubiao3:hover .cebiantuozhan2 {
+  -webkit-transform: skew(0deg, 0deg);
+}
+.cebiantuozhan3{
+	width: 101px;
+	height: 38px;
+	left: -120px;
+	top: -0px;
+	position: absolute;
+	line-height: 35px;
+	background: url(../img/cebian9.png);
+	text-align: center;	
+    -webkit-transition: 0.5s;
+    transform: skew(-45deg, -45deg);
+    /*display: none;*/
+}
+.cebiantubiao4:hover .cebiantuozhan3 {
+  -webkit-transform: skew(0deg, 0deg);
+}
+/*侧边动画*/
+.cebiantuozhan4{
+	width: 101px;
+	height: 38px;
+	left: -120px;
+	top: -0px;
+	position: absolute;
+	line-height: 35px;
+	background: url(../img/cebian9.png);
+	text-align: center;	
+    -webkit-transition: 0.5s;
+    transform: skew(-45deg, -45deg);
+    /*display: none;*/
+}
+.cebiantubiao5:hover .cebiantuozhan4 {
+  -webkit-transform: skew(0deg, 0deg);
+}
+.cebiantuozhan5{
+	width: 101px;
+	height: 38px;
+	left: -120px;
+	top: -0px;
+	position: absolute;
+	line-height: 35px;
+	background: url(../img/cebian9.png);
+	text-align: center;	
+    -webkit-transition: 0.5s;
+    transform: skew(-45deg, -45deg);
+    /*display: none;*/
+}
+.cebiantubiao6:hover .cebiantuozhan5 {
+  -webkit-transform: skew(0deg, 0deg);
+}
+
+/*各大主页*/
+.section1{
+	background: url(../img/fengmian1.jpg);
+	background-size:100%;
+	position: relative;
+	}
+.section1 .haohua{
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	margin-left: -255px;
+	margin-top: -30px;
+	height: 110px;
+	width: 505px;
+	background: red;
+	background: url(../img/haohuaban.png) repeat-x;
+	opacity: 0;	
+}
+.section1 .youyue{
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	margin-left: -150.15px;
+	margin-top: 90px;
+	height: 28px;
+	width: 303px;
+	/*background: red;*/
+}
+.section1 .kaitong{
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	margin-left: -162.5px;
+	margin-top: 160px;
+	height: 65px;
+	width: 325px;
+	background: #31c27c;
+	border-radius: 50px 50px;
+}
+.section1 .dilan{
+	position: absolute;
+	width: 100%;
+	height: 164px;
+	/*background: red;*/
+	bottom: 0%;
+	background: rgb(0,0,0,0.1);
+}
+.dilan .dilanCon{
+	width: 1200px;
+	height: 164px;
+	margin: auto;
+	/*background: red;*/
+}
+.dilanCon .dilancon{
+	position: relative;
+	width: 300px;
+	height: 164px;
+	/*background: yellow;*/
+	float: left;
+}
+/*通用白色底部盒子*/
+.whitebox{
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	background: white;
+	bottom: 0%;
+	/*background: rgb(255,255,255,);*/
+}
+.section2{
+	background: url(../img/fengmian2.jpg);
+	background-size:100%;
+	position: relative;
+	}
+.whitebox2 .whitebox2Con{
+	width: 1200px;
+	height: 400px;
+	left: 50%;
+	margin-left: -600px;
+	/*background: red;*/
+	position: relative;	
+}
+.whitebox2Con .whitebox2ConIN{
+	position: absolute;
+	width: 600px;
+	height: 126px;
+	top: 70%;
+	left: 50%;
+	margin-left: -300px;
+	opacity: 0;
+	/*background: black;*/	
+}
+.whitebox2ConIN .xiazaibox{
+	width: 200px;
+	height: 126px;
+	float: left;
+	/*background: yellow;*/
+	position: relative;	
+	text-align: center;
+	line-height: 230px;
+	z-index: 99;
+}
+.xiazaibox img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: -31.5px;
+}
+.xiazaibox p{
+	color: #707070;
+	font-size: 14px;
+}
+.section3{
+	background: url(../img/fengmian3.jpg);
+	background-size:100%;
+	position: relative;
+	}
+.whitebox3 .whitebox3Con{
+	width: 1200px;
+	height: 400px;
+	left: 50%;
+	margin-left: -600px;
+	/*background: red;*/
+	position: relative;	
+}
+.whitebox3Con .whitebox3ConIN{
+	position: absolute;
+	width: 720px;
+	height: 126px;
+	top: 70%;
+	left: 50%;
+	margin-left: -360px;
+	opacity: 0;
+	/*background: black;*/	
+}
+.whitebox3ConIN .gexingbox{
+	width: 180px;
+	height: 126px;
+	float: left;
+	/*background: yellow;*/
+	position: relative;	
+	text-align: center;
+	line-height: 230px;
+	z-index: 99;
+}
+.gexingbox img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: -31.5px;
+}
+.gexingbox p{
+	color: #707070;
+	font-size: 14px;
+}
+.section4{
+	background: url(../img/fengmian4.jpg);
+	background-size:100%;
+	position: relative;
+	}
+.whitebox4 .whitebox4Con{
+	width: 1200px;
+	height: 400px;
+	left: 50%;
+	margin-left: -600px;
+	/*background: red;*/
+	position: relative;	
+}
+.whitebox4Con .whitebox4ConIN{
+	position: absolute;
+	width: 600px;
+	height: 126px;
+	top: 70%;
+	left: 50%;
+	margin-left: -300px;
+	opacity: 0;
+	/*background: black;*/	
+}
+.whitebox4ConIN .chengzhangbox{
+	width: 200px;
+	height: 126px;
+	float: left;
+	/*background: yellow;*/
+	position: relative;	
+	text-align: center;
+	line-height: 230px;	
+	z-index: 99;
+}
+.chengzhangbox img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: -31.5px;
+}
+.chengzhangbox p{
+	color: #707070;
+	font-size: 14px;
+}	
+.section5{
+	background: url(../img/fengmian6.jpg);
+	background-size:100%;
+	position: relative;
+}
+.whitebox5 .whitebox5Con{
+	width: 1200px;
+	height: 400px;
+	left: 50%;
+	margin-left: -600px;
+	/*background: red;*/
+	position: relative;	
+}
+.whitebox5Con .whitebox5ConIN{
+	position: absolute;
+	width: 500px;
+	height: 126px;
+	top: 70%;
+	left: 50%;
+	margin-left: -250px;
+	opacity: 1;
+	/*background: black;*/	
+}
+.whitebox5ConIN .xinqingbox{
+	width: 250px;
+	height: 126px;
+	float: left;
+	/*background: yellow;*/
+	position: relative;	
+	text-align: center;
+	line-height: 230px;
+	z-index: 99;	
+}
+.xinqingbox img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: -31.5px;
+}
+.xinqingbox p{
+	color: #707070;
+	font-size: 14px;
+}
+
+/*左侧导航栏*/
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+    background: #fff; /*这里设置的是活动导航的颜色*/
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    border: 1px solid #fff;/*这里设置的是非活动导航的颜色*/
+}
+
+
+
+
