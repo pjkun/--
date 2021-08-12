@@ -1,0 +1,112 @@
+$(".download-list-pc")
+.mouseenter(function(){
+	$(".download-list-pc").css("background","url(img/pc.png)")
+})
+.mouseleave(function(){
+	$(".download-list-pc").css("background","url(img/pc1.png)")
+})
+.click(function(){
+	$(".wallpaper1").css("background","url(img/banner_pc.png)")
+	$(".download-list-mac").css("background","url(img/mac1.png)")
+	$(".download-list-pc").css("background","url(img/pc.png)")
+	$(".download-list-iphone").css("background","url(img/h-iphone1.png)")
+	$(".download-list-android").css("background","url(img/h-android1.png)")
+	$(".download-list-line1").css("opacity","100%")
+	$(".download-list-line2").css("opacity","0%")
+	$(".download-list-line3").css("opacity","0%")
+	$(".download-list-line4").css("opacity","0%")
+	setTimeout(function(){
+		$(".download-list-pc").css("background","url(img/pc.png)")
+	},100)
+})
+$(".download-list-mac")
+.mouseenter(function(){
+	$(".download-list-mac").css("background","url(img/mac.png)")
+})
+.mouseleave(function(){
+	$(".download-list-mac").css("background","url(img/mac1.png)")
+})
+.click(function(){
+	$(".wallpaper1").css("background","url(img/banner_mac.png)")
+	$(".download-list-mac").css("background","url(img/mac.png)")
+	$(".download-list-pc").css("background","url(img/pc1.png)")
+	$(".download-list-iphone").css("background","url(img/h-iphone1.png)")
+	$(".download-list-android").css("background","url(img/h-android1.png)")
+	$(".download-list-line1").css("opacity","0%")
+	$(".download-list-line2").css("opacity","100%")
+	$(".download-list-line3").css("opacity","0%")
+	$(".download-list-line4").css("opacity","0%")
+	setTimeout(function(){
+		$(".download-list-mac").css("background","url(img/mac.png)")
+	},100)
+})
+$(".download-list-iphone")
+.mouseenter(function(){
+	$(".download-list-iphone").css("background","url(img/h-iphone.png)")
+})
+.mouseleave(function(){
+	$(".download-list-iphone").css("background","url(img/h-iphone1.png)")
+})
+.click(function(){
+	$(".wallpaper1").css("background","url(img/iphone_play_1.png)")
+	$(".download-list-mac").css("background","url(img/mac1.png)")
+	$(".download-list-pc").css("background","url(img/pc1.png)")
+	$(".download-list-iphone").css("background","url(img/h-iphone.png)")
+	$(".download-list-android").css("background","url(img/h-android1.png)")
+	$(".download-list-line1").css("opacity","0%")
+	$(".download-list-line2").css("opacity","0%")
+	$(".download-list-line3").css("opacity","100%")
+	$(".download-list-line4").css("opacity","0%")
+	setTimeout(function(){
+		$(".download-list-iphone").css("background","url(img/h-iphone.png)")
+	},100)
+})
+$(".download-list-android")
+.mouseenter(function(){
+	$(".download-list-android").css("background","url(img/h-android.png)")
+})
+.mouseleave(function(){
+	$(".download-list-android").css("background","url(img/h-android1.png)")
+})
+.click(function(){
+	$(".wallpaper1").css("background","url(img/banner_android.png)")
+	$(".download-list-mac").css("background","url(img/mac1.png)")
+	$(".download-list-pc").css("background","url(img/pc1.png)")
+	$(".download-list-iphone").css("background","url(img/h-iphone1.png)")
+	$(".download-list-android").css("background","url(img/h-android.png)")
+	$(".download-list-line1").css("opacity","0%")
+	$(".download-list-line2").css("opacity","0%")
+	$(".download-list-line3").css("opacity","0%")
+	$(".download-list-line4").css("opacity","100%")
+	setTimeout(function(){
+		$(".download-list-android").css("background","url(img/h-android.png)")
+	},100)
+})
+$(".menu-nav2")
+.mouseenter(function(){
+	$(".menu-nav2").css("color","#31C27C")
+})
+.mouseleave(function(){
+	$(".menu-nav2").css("color","#FFFFFF")
+})
+$(".introduce1")
+.mouseenter(function(){
+	$(".introduce1").css("color","#31C27C")
+})
+.mouseleave(function(){
+	$(".introduce1").css("color","#FFFFFF")
+})
+$(".introduce2")
+.mouseenter(function(){
+	$(".introduce2").css("color","#31C27C")
+})
+.mouseleave(function(){
+	$(".introduce2").css("color","#FFFFFF")
+})
+$(".introduce3")
+.mouseenter(function(){
+	$(".introduce3").css("color","#31C27C")
+})
+.mouseleave(function(){
+	$(".introduce3").css("color","#FFFFFF")
+})
